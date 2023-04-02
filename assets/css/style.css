@@ -1,0 +1,14 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+  }
+
+  .timer{
+    float: right;
+  }
+
+
+/* used to hide certain parts of the page */
+  .hide {
+    display: none;
+}

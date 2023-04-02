@@ -18,18 +18,62 @@
 <body>
 
     <header>
-        <div>
-
+        <div class="mx-auto p-2">
+            <a href="highscores.html">High Scores</a>
         </div>
+
+        <div class="timer p-4">
+            <p>Time:
+                <span id="timer">0</span>
+            </p>
+        </div>
+
     </header>
 
-    <main>
-        <div>
 
-        </div>
 
+    <!-- page will use 3 conditions to display either start, quiz, or ending -->
+    <main class="container my-5 d-flex justify-content-center">
+
+        <section>
+            <div id="quiz">
+
+                <!-- first starting condition: initial page start up before quiz -->
+                <div id="starting">
+                    <h1>Coding Quiz Challenge</h1>
+                    <p>
+                        Try to answer the following code-related questions within the time limit. Keep in mind that
+                        incorrect answers will penalize your score/time by ten seconds!
+                    </p>
+                    <button id="start" type="button" class="btn btn-primary">Start Quiz</button>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- initially hidden, but will display questions/answers -->
+        <section>
+            <div class="hide" id="questions">
+                <h2 id="question-text"></h2>
+                <div class="answers col-1 p-5
+                " id="answers"></div>
+            </div>
+            <div id="response" class="response hide"></div>
+        </section>
+
+        <!-- displays the quiz score and name entry -->
+        <section>
+            <div class="hide" id="game-finished">
+                <h2>All Done!</h2>
+                <p>Your final score is: <span id="finalScore"></span></p>
+                <p>Please enter your name: <input type="text" id="name-input" />
+
+                    <a href="highscores.html"><button id="submit-score" class="btn btn-primary">Submit</button></a>
+                </p>
+            </div>
+
+        </section>
     </main>
-
 
 </body>
 
