@@ -45,3 +45,25 @@ var questions = [
 //timer
 var timeLeft = questions.length * 10;
 var timerStart;
+
+
+function startQuiz() {
+    timerStart = setInterval(timer, 1000);
+    timerEl.textContent = timeLeft;
+    var startViewEL = document.querySelector("#starting");;
+    startViewEL.setAttribute("class", "hide");
+    questionsEl.removeAttribute("class");
+    generateQuestion();
+}
+
+function timer() {
+    timeLeft--;
+    timerEl.textContent = timeLeft;
+    if (timeLeft <= 0) {
+      gameOver();
+    }
+  }
+
+  function generateQuestion(){
+    
+  }
