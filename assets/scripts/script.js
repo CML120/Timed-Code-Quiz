@@ -111,7 +111,7 @@ function timer() {
 
 //game over condition
 function gameOver() {
-    clearInterval(timeLeft);
+    clearInterval(timerStart);
     var gameOverScreen = document.getElementById("game-finished");
     gameOverScreen.removeAttribute("class");
     var finalScore = document.getElementById("finalScore");
