@@ -22,7 +22,7 @@ WHEN the game is over
 THEN I can save my initials and score  
 
 
-<insert screen shot>
+![image](https://user-images.githubusercontent.com/126404917/229387244-e467db10-b482-41e4-840a-f18450c42786.png)
   
  <deployment link>
 
