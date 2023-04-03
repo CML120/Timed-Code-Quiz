@@ -24,9 +24,6 @@ THEN I can save my initials and score
 
 ![image](https://user-images.githubusercontent.com/126404917/229387244-e467db10-b482-41e4-840a-f18450c42786.png)
   
- <deployment link>
-
-
 
   
 deployed page: https://cml120.github.io/Timed-Code-Quiz/
