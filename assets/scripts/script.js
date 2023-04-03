@@ -74,7 +74,7 @@ function timer() {
     selectedQuestion.choices.forEach(function(choice, i) {
         var answerBtn = document.createElement("button");
         answerBtn.setAttribute("value", choice);
-        answerBtn.textContent = i + 1 + ". " + choice;
+        answerBtn.textContent = choice ;
         answerBtn.onclick = answerClick;
         answersEl.appendChild(answerBtn);
     });
