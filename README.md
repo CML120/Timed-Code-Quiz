@@ -28,8 +28,5 @@ THEN I can save my initials and score
 
 
 
-NOTE:  4/2/2023  I ran into some issues with my original repository so I had to copy over my previous work into this new repository. Below is the original:
-https://github.com/CML120/Code-Quiz
-
   
 deployed page: https://cml120.github.io/Timed-Code-Quiz/
