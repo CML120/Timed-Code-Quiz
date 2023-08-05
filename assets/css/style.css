@@ -1,6 +1,11 @@
 body {
     font-family: 'Titillium Web', sans-serif;
     font-size: 20px;
+
+
+   
+    height: 100vh; /* Ensure the container takes up the full viewport height */
+    margin: 0;
   }
 
   .timer{
@@ -16,3 +21,22 @@ body {
 div {
     font-size: 18px;
 }
+
+/* CSS code to format the answer buttons */
+#answers button {
+  display: block;
+  width: 50%;
+  padding: 20px 600px 20px 20px;
+  margin: 8px 0;
+  border: 3px solid #ccc;
+  border-radius: 15px;
+  background-color: #f2f2f2;
+  font-size: 16px;
+  text-align: left;
+}
+
+#answers button:hover {
+  background-color: #a4d2e7;
+}
+
+
